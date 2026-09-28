@@ -1,0 +1,10 @@
+#SII{
+
+}
+body{
+    font: size 20px;
+}
+@font-face {
+    font-family: 'Mifuente';
+    src: url(./../fonts/StarJediRounded-jW3R.ttf);
+}
