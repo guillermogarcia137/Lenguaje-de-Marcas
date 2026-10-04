@@ -1,0 +1,41 @@
+@font-face {
+    
+}
+body{
+    background-color:#173E76;
+    font-family: 'StarWars', sans-serif;
+    color:white ;
+    background: url(./img/Wallpaper\ Vinland\ Saga\,\ Landscape\,\ Dawn.jpg);
+    background-size: 100%;
+}
+.titulo{
+    
+    text-align: center;
+    color: #4da6ff;
+}
+a { 
+    color: white;
+    text-decoration: none;
+}
+.enlaces {
+    background-color: #0b1f3a;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.enlaces a {
+    display: block;
+    color: #4da6ff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.enlaces a:hover {
+    background-color: #1769aa;
+    color: white;
+    transform: translateX(5px);
+}
