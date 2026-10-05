@@ -1,12 +1,14 @@
-@font-face {
-    
-}
 body{
     background-color:#173E76;
     font-family: 'StarWars', sans-serif;
     color:white ;
-    background: url(./img/Wallpaper\ Vinland\ Saga\,\ Landscape\,\ Dawn.jpg);
-    background-size: 100%;
+    background-image: url(./img/fondo2.avif);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+
 }
 .titulo{
     
@@ -38,4 +40,17 @@ a {
     background-color: #1769aa;
     color: white;
     transform: translateX(5px);
+}
+.IconoGitHub {
+    position:fixed;
+    top: 2%;
+    right:2%;
+    z-index: 1000; /* Asegura que se mantenga por encima de otros elementos */
+}
+
+/* Aplica el tamaño a la imagen dentro del botón */
+.IconoGitHub img {
+    width: 20%;   /* Cambia este número si lo quieres más grande o más pequeño */
+    /*height: 40px;*/
+    display:block;
 }
